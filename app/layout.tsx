@@ -1,5 +1,5 @@
 import "@/styles/globals.scss";
-import { comfortaa, poppins, tiro } from "@/utils/GlobalFonts";
+import { poppins, tiro } from "@/utils/GlobalFonts";
 
 export default function RootLayout({
   children
@@ -9,9 +9,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${poppins.className} ${poppins.variable} ${tiro.variable} ${comfortaa.variable}`}
+      className={`${poppins.className} ${poppins.variable} ${tiro.variable}`}
     >
-      <body className={comfortaa.className}>{children}</body>
+      <body className={poppins.className}>{children}</body>
     </html>
   );
 }

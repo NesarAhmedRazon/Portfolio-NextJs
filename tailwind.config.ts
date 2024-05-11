@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ["var(--poppins-font)"]
+      },
       colors: {
         twitter: "#00acee",
         facebook: "#0084ff",
