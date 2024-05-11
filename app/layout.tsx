@@ -1,4 +1,5 @@
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import "@/styles/globals.scss";
 import { poppins, tiro } from "@/utils/GlobalFonts";
 
@@ -13,6 +14,7 @@ export default function RootLayout({
       className={`${poppins.className} ${poppins.variable} ${tiro.variable}`}
     >
       <body className={`min-h-dvh ${poppins.className}`}>
+        <Header />
         {children}
         <Footer />
       </body>
