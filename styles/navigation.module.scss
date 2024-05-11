@@ -1,0 +1,11 @@
+.container {
+    @apply flex gap-6;
+
+    & .item {
+        @apply flex items-center gap-2 leading-8 border-b-2 border-transparent hover:border-sky-500 duration-300;
+
+        &.active {
+            @apply border-sky-500;
+        }
+    }
+}
