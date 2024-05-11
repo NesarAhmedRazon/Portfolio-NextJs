@@ -11,9 +11,23 @@ const config: Config = {
       fontFamily: {
         poppins: ["var(--poppins-font)"]
       },
+
       colors: {
         twitter: "#00acee",
-        facebook: "#0084ff",
+        facebook: {
+          500: "#1eb5ff",
+          600: "#0698ff",
+          700: "#0084ff",
+          800: "#0864c5"
+        },
+        github: {
+          900: "#24292e",
+          700: "#586069"
+        },
+        upwork: {
+          normal: "#14a800",
+          hover: "#23dc06"
+        },
         linkedin: "#0072b1"
       }
     }

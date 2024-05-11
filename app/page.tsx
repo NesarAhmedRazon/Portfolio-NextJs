@@ -1,5 +1,11 @@
 export default function HomePage() {
-  return <div>Home of nesar ahmed&apos;s profile</div>;
+  return (
+    <main className="w-full">
+      <section className="siteWidth  py-6 md:py-4 text-center">
+        Home of nesar ahmed&apos;s profile
+      </section>
+    </main>
+  );
 }
 
 export async function generateMetadata() {
