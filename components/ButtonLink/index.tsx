@@ -6,16 +6,19 @@ function ButtonLink({
   className,
   icon,
   iconAlign,
-  href
+  href,
+  target = "_self | _blank | _parent | _top"
 }: {
   text: string;
   className?: string;
   icon?: string;
   iconAlign?: string;
   href: string;
+  target?: string;
 }) {
   const attrs = {
     href: href,
+    target: target,
     className: `${style.item}${className ? ` ` + className : ""}`
   };
   return <Link {...attrs}>{text}</Link>;

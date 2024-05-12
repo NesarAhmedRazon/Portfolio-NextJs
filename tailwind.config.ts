@@ -11,7 +11,7 @@ const config: Config = {
       fontFamily: {
         poppins: ["var(--poppins-font)"]
       },
-
+      
       colors: {
         twitter: "#00acee",
         facebook: {
