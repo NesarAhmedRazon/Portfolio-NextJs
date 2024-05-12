@@ -1,3 +1,5 @@
+import { cn } from "@/utils/cn";
+
 function Section({
   children,
   className,
@@ -8,11 +10,9 @@ function Section({
   background?: string;
 }) {
   let attrs: { className?: string } = {
-    className: "siteWidth py-6 md:py-4 text-center"
+    className: cn("py-6 siteWidth md:py-8", className ? className : "")
   };
-  if (className) {
-    attrs.className = `${attrs.className} ${className}`;
-  }
+
   return (
     <section className={`w-full ${background}`}>
       <div {...attrs}>{children}</div>

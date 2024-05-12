@@ -8,7 +8,7 @@ import style from "./header.module.scss";
 export default function Header() {
   return (
     <header>
-      <Section className={`${style.container}`}>
+      <Section className={`${style.container} md:py-4`}>
         <Link href={process.env.NEXT_PUBLIC_BASE_URL}>
           <Logo className="text-5xl" />
         </Link>

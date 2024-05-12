@@ -8,7 +8,7 @@ export default function Footer() {
 
   return (
     <footer>
-      <Section className="flex gap-6 flex-col md:flex-row md:justify-between items-center  py-6 md:py-4">
+      <Section className="flex gap-6 flex-col md:flex-row md:justify-between items-center  py-6 md:py-4 border-t">
         <div
           className={`copyright order-last md:order-first text-sm md:text-base `}
         >

@@ -2,10 +2,10 @@ import Section from "@/widgets/Section";
 
 export default function HomePage() {
   return (
-    <main className="w-full">
-      <Section>
-        <div className="w-full md:w-1/2 text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-semibold">
+    <main>
+      <Section className="md:py-10 ">
+        <div className="w-full md:w-1/2 text-center md:text-left py-4">
+          <h1 className="text-4xl md:text-6xl/tight font-normal">
             I&apos;m Web Developer <br />
             Nesar Ahmed
           </h1>
