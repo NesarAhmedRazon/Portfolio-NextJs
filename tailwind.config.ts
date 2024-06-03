@@ -3,6 +3,7 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./widgets/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}"
   ],
@@ -13,6 +14,10 @@ const config: Config = {
       },
       padding: {
         "1/1": "100%"
+      },
+      aspectRatio: {
+        'sd':'4/3',
+
       },
       colors: {
         twitter: "#00acee",
