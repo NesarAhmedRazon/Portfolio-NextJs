@@ -1,12 +1,17 @@
+import { PortfolioItems } from "@/utils/PortfolioItems";
+import Portfolio from "@/widgets/Portfolio";
 import Section from "@/widgets/Section";
+import Image from "next/image";
 
 export default function HomePage() {
   return (
     <main>
-      <Section className="md:py-10 ">
-        <div className="w-full md:w-1/2 text-center md:text-left py-4">
-          <h1 className="text-4xl md:text-6xl/tight font-normal">
-            I&apos;m Web Developer <br />
+      <Section className="md:py-10 grid md:grid-cols-2 gap-4 md:gap-6 lg:gap-8 items-center">
+        <div className="w-full text-center md:text-left py-4">
+          <h1 className="text-4xl  md:text-5xl/tight lg:text-6xl/tight font-normal">
+            <span className="text-2xl font-light">
+              I&apos;m Web Developer <br />
+            </span>
             Nesar Ahmed
           </h1>
           <p className="text-sm md:text-base mt-4 font-light">
@@ -15,7 +20,16 @@ export default function HomePage() {
             experience.
           </p>
         </div>
+        <div className="w-full text-center md:text-left relative pb-1/1 overflow-hidden order-first md:order-last">
+          <Image
+            src="/images/profile/pic.jpg"
+            alt="Nesar Ahmed"
+            fill
+            className="p-0 md:p-4 lg:p-8 rounded-lg md:rounded-full"
+          />
+        </div>
       </Section>
+      <Portfolio data={PortfolioItems} />
     </main>
   );
 }
