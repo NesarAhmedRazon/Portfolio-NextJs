@@ -16,7 +16,9 @@ const config: Config = {
         "1/1": "100%"
       },
       aspectRatio: {
-        'sd':'4/3',
+        'sd': '4/3',
+        'hd': '16/9',
+        
 
       },
       colors: {
