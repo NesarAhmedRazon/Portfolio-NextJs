@@ -10,7 +10,7 @@ export const { getClient, query, PreloadQuery } = registerApolloClient(() => {
     cache: new InMemoryCache(),
     link: new HttpLink({
       // this needs to be an absolute url, as relative urls cannot be used in SSR
-      uri: process.env.NEXT_PUBLIC_BASE_URL + "/gql",
+      uri: process.env.WP_URL + "/graphql",
       headers: {
         "Content-Type": "application/json",
         credentials: "include",
