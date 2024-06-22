@@ -1,16 +1,23 @@
 import ButtonLink from "@/components/ButtonLink";
 import Card from "@/components/Portfolio/Card";
+import getProjects from "@/libs/queries/getProjects";
 import Section from "@/widgets/Section";
 
-export default function Portfolio({ data }: { data: any[] }) {
+export default async function Portfolio({ items }) {
+  const projects = await getProjects(items, 1); // get 5 projects from page 1
   return (
     <Section className="md:py-10 md:gap-8 items-center">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-2xl md:text-3xl">Portfolio</h2>
-        <ButtonLink text="See all >" href="#" variant="ghost" color="base" />
+        <h2 className="text-2xl md:text-3xl">Projects</h2>
+        <ButtonLink
+          text="See all >"
+          href="/projects"
+          variant="ghost"
+          color="base"
+        />
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-5">
-        {data.map((item, i) => (
+        {projects.map((item, i) => (
           <Card key={i} data={item} />
         ))}
       </div>

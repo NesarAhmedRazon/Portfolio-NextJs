@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import "@/styles/globals.scss";
 import { poppins, tiro } from "@/utils/GlobalFonts";
+import { ApolloWrapper } from "@/libs/apollo/apollo-provider";
 
 export default function RootLayout({
   children
@@ -15,7 +16,8 @@ export default function RootLayout({
     >
       <body className={`min-h-dvh ${poppins.className}`}>
         <Header />
-        {children}
+        <main>{children}</main>
+        
         <Footer />
       </body>
     </html>

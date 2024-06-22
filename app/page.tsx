@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function HomePage() {
   return (
-    <main>
+    <>
       <Section className="md:py-10 grid md:grid-cols-2 gap-4 md:gap-6 lg:gap-8 items-center">
         <div className="w-full text-center md:text-left py-4">
           <h1 className="text-4xl  md:text-5xl/tight lg:text-6xl/tight font-normal">
@@ -22,15 +22,17 @@ export default function HomePage() {
         </div>
         <div className="w-full text-center md:text-left relative pb-1/1 overflow-hidden order-first md:order-last">
           <Image
-            src="/images/profile/pic.jpg"
+            src="/images/profile/nesar_ahmed.jpg"
             alt="Nesar Ahmed"
             fill
             className="p-0 md:p-4 lg:p-8 rounded-lg md:rounded-full"
+            sizes="(min-width: 1024px) 400px, (min-width: 640px) 300px, 200px"
+            priority
           />
         </div>
       </Section>
-      <Portfolio data={PortfolioItems} />
-    </main>
+      <Portfolio items={5} />
+    </>
   );
 }
 
