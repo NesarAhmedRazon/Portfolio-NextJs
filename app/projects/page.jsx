@@ -13,14 +13,14 @@ export default async function Projects() {
       {projects.length === 0 ? (
         <div className="text-center my-8">
           <p className="text-base md:text-2xl text-gray-300">
-            Nothing done yet, I'm working on new projects
+            Nothing done yet, I&apos;m working on new projects
           </p>
         </div>
       ) : (
         <>
           <Section className="md:pt-10 md:pb-0 md:gap-8 items-center justify-center ">
             <h1 className="text-2xl md:text-4xl text-center">
-              Projects I've worked on
+              Projects I&apos;ve worked on
             </h1>
           </Section>
           <Section className="md:py-10 md:gap-8 items-center">
@@ -32,7 +32,7 @@ export default async function Projects() {
           </Section>
           <Section className="md:pt-10 md:pb-0 md:gap-8 items-center justify-center ">
             <h1 className="text-2xl md:text-4xl text-center">
-              Projects I'm working on
+              Projects I&apos;m working on
             </h1>
           </Section>
           <Section className="md:py-10 md:gap-8 items-center">
