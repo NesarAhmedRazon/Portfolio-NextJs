@@ -20,6 +20,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
+        hostname: "nesarahmed.dev",
+        pathname: "/**"
+      },
+      {
+        protocol: "https",
         hostname: "smdpicker.com",
         pathname: "/**"
       },

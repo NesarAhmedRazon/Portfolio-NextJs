@@ -5,7 +5,7 @@ export function ImageUrl(ImageUrl: string) {
   const wp = process.env.WP_URL || '/';
   // Check if the image is from the WordPress site, if not, return the image as is, else, replace the WordPress URL with the base URL
     if (ImageUrl.includes(wp)) {
-        return ImageUrl.replace(wp+'/wp-content/uploads/', base+'/assets/');
+        return ImageUrl.replace(wp+'/wp-content/uploads/', '/assets/');
     } else {
         return ImageUrl;
     }
