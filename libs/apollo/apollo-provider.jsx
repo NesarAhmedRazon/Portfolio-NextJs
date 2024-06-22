@@ -8,8 +8,6 @@ import {
   SSRMultipartLink
 } from "@apollo/experimental-nextjs-app-support";
 
-import WPLink from "@/utils/WPLink";
-
 function makeClient() {
   const wpUrl = "https://smdpicker.com/graphql";
 

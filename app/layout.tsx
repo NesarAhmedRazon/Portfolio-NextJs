@@ -16,7 +16,7 @@ export default function RootLayout({
     >
       <body className={`min-h-dvh ${poppins.className}`}>
         <Header />
-        <main>{children}</main>
+        <ApolloWrapper ><main>{children}</main></ApolloWrapper>
         
         <Footer />
       </body>
