@@ -24,11 +24,13 @@ export default async function getProjects(count = 10, page = 1) {
       first: count,
       offset: (page - 1) * count
     },
-    headers: {
-      "Content-Type": "application/json",
-      Credentials: "include"
-    },
-    fetchPolicy: "cache-first"
+
+    errorPolicy: "all",
+    context: {
+      fetchOptions: {
+        next: { revalidate: 180 }
+      }
+    }
   });
-  return data?.portfolios?.nodes;
+  return data?.portfolios?.nodes || [];
 }
