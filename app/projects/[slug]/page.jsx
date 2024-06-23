@@ -15,7 +15,7 @@ export async function generateStaticParams() {
 export default async function page({ params }) {
   const { slug } = params;
   const data = await getSingleProject(slug);
-  console.log(data);
+
   return (
     <Section className="md:py-10 grid md:grid-cols-2 gap-4 md:gap-6 lg:gap-8 items-center">
       <h1>{data.title}</h1>
