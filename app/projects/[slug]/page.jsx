@@ -3,7 +3,7 @@ import getSingleProject from "@/libs/queries/getSingleProject";
 import Section from "@/widgets/Section";
 
 export async function generateStaticParams() {
-  const projects = await getProjects(5, 1);
+  const projects = await getProjects(1);
 
   const slugs = projects.map((project) => ({
     slug: project.slug
