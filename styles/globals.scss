@@ -11,11 +11,11 @@
 
 
 #logo {
-  &_vertical {
-    @apply hidden md:block;
-  }
+  // &_vertical {
+  //   @apply hidden;
+  // }
 
   &_horizontal {
-    @apply block md:hidden;
+    @apply block;
   }
 }

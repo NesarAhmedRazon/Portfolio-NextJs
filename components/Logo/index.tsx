@@ -9,11 +9,10 @@ export default function Logo({ className }: { className?: string }) {
   className && (attr.className = className);
   // get the current media query state
   const isMdScreen = useMediaQuery({ maxWidth: 768 });
-  console.log("isMdScreen", isMdScreen);
 
   return (
     <>
-      <svg
+      {/* <svg
         {...attr}
         id="logo_vertical"
         version="1.1"
@@ -170,7 +169,7 @@ export default function Logo({ className }: { className?: string }) {
             </g>
           </g>
         </g>
-      </svg>
+      </svg> */}
       <svg
         {...attr}
         id="logo_horizontal"
