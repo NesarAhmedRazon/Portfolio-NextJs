@@ -1,2 +1,4 @@
 WP_URL = "https://wordpresssite.com"
 NEXT_PUBLIC_BASE_URL = "https://yourpublicdomain"
+NOINDEX ="true"
+NEXT_PUBLIC_GOOGLE_ANALYTICS = "G-XXXXXXXXXX"

@@ -9,5 +9,65 @@
         }
     }
 
+    &.primary {
+        @apply bg-sky-500 hover:bg-sky-400 text-white;
+
+        &.active {
+            @apply bg-sky-600;
+        }
+    }
+
+    &.secondary {
+        @apply bg-white text-gray-500;
+
+        &.active,
+        &:hover {
+            @apply bg-sky-500 text-white;
+        }
+    }
+
+    &.danger {
+        @apply bg-red-500 hover:bg-red-400 text-white;
+    }
+
+    &.active {}
+
+    // TODO: Add MARKER
+    &.marker {
+        @apply relative z-10 overflow-hidden;
+
+
+        &:before {
+            @apply content-[""] absolute;
+        }
+
+        &_top,
+        &_bottom {
+            &:before {
+                @apply w-full h-1 bg-sky-500 left-0 right-0;
+            }
+        }
+
+        &_left,
+        &_right {
+            &:before {
+                @apply w-1 h-full bg-sky-500 top-0 bottom-0;
+            }
+        }
+
+        &_top {
+            &:before {
+                @apply -top-2;
+            }
+        }
+
+        &_bottom {
+            &:before {
+                @apply -bottom-0;
+            }
+        }
+    }
+
+
 
 }

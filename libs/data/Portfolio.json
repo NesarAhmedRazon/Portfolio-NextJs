@@ -1,0 +1,150 @@
+{"data": {
+    "webProjects": {
+      "nodes": [
+        {
+          "slug": "smdpicker-wordpress",
+          "title": "SMDPicker.com",
+          "featuredImage": {
+            "node": {
+              "altText": "",
+              "sourceUrl": "https://smdpicker.com/wp-content/uploads/2024/06/nesarahmed.dev_.portfolio.smdpicker.com_featu-1.jpg",
+              "title": null
+            }
+          },
+          "terms": {
+            "nodes": [
+              {
+                "name": "Done",
+                "id": "dGVybTo2OTI=",
+                "slug": "done",
+                "databaseId": 692
+              },
+              {
+                "name": "e-Commerce",
+                "id": "dGVybTo2OTQ=",
+                "slug": "e-commerce",
+                "databaseId": 694
+              },
+              {
+                "name": "Web Development",
+                "id": "dGVybTo2OTM=",
+                "slug": "web-development",
+                "databaseId": 693
+              },
+              {
+                "name": "WordPress",
+                "id": "dGVybTo2OTA=",
+                "slug": "wordpress",
+                "databaseId": 690
+              }
+            ]
+          }
+        },
+        {
+          "slug": "portfolio",
+          "title": "My Portfolio",
+          "featuredImage": {
+            "node": {
+              "altText": "",
+              "sourceUrl": "https://smdpicker.com/wp-content/uploads/2024/06/nesarahmed.dev_.portfolio.nesarahmed.jpg",
+              "title": null
+            }
+          },
+          "terms": {
+            "nodes": [
+              {
+                "name": "In Progress",
+                "id": "dGVybTo2OTE=",
+                "slug": "in-progress",
+                "databaseId": 691
+              },
+              {
+                "name": "Next Js",
+                "id": "dGVybTo2ODk=",
+                "slug": "next-js",
+                "databaseId": 689
+              },
+              {
+                "name": "Web Development",
+                "id": "dGVybTo2OTM=",
+                "slug": "web-development",
+                "databaseId": 693
+              }
+            ]
+          }
+        },
+        {
+          "slug": "tallyfy-com",
+          "title": "Tallyfy.com",
+          "featuredImage": {
+            "node": {
+              "altText": "",
+              "sourceUrl": "https://smdpicker.com/wp-content/uploads/2024/06/nesarahmed.dev_.portfolio.tallyfy.com_feature.jpg",
+              "title": null
+            }
+          },
+          "terms": {
+            "nodes": [
+              {
+                "name": "Done",
+                "id": "dGVybTo2OTI=",
+                "slug": "done",
+                "databaseId": 692
+              },
+              {
+                "name": "Next Js",
+                "id": "dGVybTo2ODk=",
+                "slug": "next-js",
+                "databaseId": 689
+              },
+              {
+                "name": "Web Development",
+                "id": "dGVybTo2OTM=",
+                "slug": "web-development",
+                "databaseId": 693
+              },
+              {
+                "name": "WordPress",
+                "id": "dGVybTo2OTA=",
+                "slug": "wordpress",
+                "databaseId": 690
+              }
+            ]
+          }
+        },
+        {
+          "slug": "mesghali-studio",
+          "title": "Mesghali Studio",
+          "featuredImage": {
+            "node": {
+              "altText": "",
+              "sourceUrl": "https://smdpicker.com/wp-content/uploads/2024/06/nesarahmed.dev_.portfolio.mesghali.studio_1.jpg",
+              "title": null
+            }
+          },
+          "terms": {
+            "nodes": [
+              {
+                "name": "Done",
+                "id": "dGVybTo2OTI=",
+                "slug": "done",
+                "databaseId": 692
+              },
+              {
+                "name": "Web Development",
+                "id": "dGVybTo2OTM=",
+                "slug": "web-development",
+                "databaseId": 693
+              },
+              {
+                "name": "WordPress",
+                "id": "dGVybTo2OTA=",
+                "slug": "wordpress",
+                "databaseId": 690
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }}

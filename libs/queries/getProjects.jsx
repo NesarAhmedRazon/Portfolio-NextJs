@@ -1,24 +1,28 @@
-import { gql } from "graphql-tag";
 import { getClient } from "@/libs/apollo/client";
+import dummyData from "@/libs/data/portfolio.json";
+import { gql } from "graphql-tag";
 
 export default async function getProjects(count = 10, page = 1) {
-  const revTime = process.env.NODE_ENV === "development" ? 0 : 180;
-  const { data } = await getClient().query({
-    query: query, // add your query here
-    variables: {
-      first: count,
-      offset: (page - 1) * count
-    },
+  if (process.env.NODE_ENV !== "development") {
+    const { data } = await getClient().query({
+      query: query, // add your query here
+      variables: {
+        first: count,
+        offset: (page - 1) * count
+      },
 
-    errorPolicy: "all",
-    context: {
-      fetchOptions: {
-        next: { revalidate: revTime }
+      errorPolicy: "all",
+      context: {
+        fetchOptions: {
+          next: { revalidate: 180 }
+        }
       }
-    }
-  });
+    });
 
-  return data?.webProjects?.nodes || [];
+    return data?.webProjects?.nodes || [];
+  } else {
+    return dummyData?.data?.webProjects?.nodes || [];
+  }
 }
 
 const query = gql`

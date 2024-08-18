@@ -5,12 +5,13 @@ import Section from "@/widgets/Section";
 
 export default async function Portfolio({ items }) {
   const projects = await getProjects(items, 1); // get 5 projects from page 1
+
   return (
     <>
       {projects.length === 0 ? (
         <div className="text-center my-8">
           <p className="text-base md:text-2xl text-gray-300">
-            Nothing done yet, I'm working on new projects
+            Nothing done yet, I&apos;m working on new projects
           </p>
         </div>
       ) : (

@@ -1,8 +1,8 @@
-import { gql } from "graphql-tag";
 import { getClient } from "@/libs/apollo/client";
+import { gql } from "graphql-tag";
 
 export default async function getSingleProject(slug = "") {
-  const revTime = process.env.NODE_ENV === "development" ? 0 : 180;
+  const revTime = process.env.NODE_ENV === "development" ? 180 : 180;
   const { data } = await getClient().query({
     query: query, // add your query here
     variables: {
