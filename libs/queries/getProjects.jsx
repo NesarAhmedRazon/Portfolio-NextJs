@@ -1,5 +1,5 @@
 import { getClient } from "@/libs/apollo/client";
-import dummyData from "@/libs/data/portfolio.json";
+import dummyData from "@/libs/dummydata/portfolio.json";
 import { gql } from "graphql-tag";
 
 export default async function getProjects(count = 10, page = 1) {
