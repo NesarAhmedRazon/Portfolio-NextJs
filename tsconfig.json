@@ -22,7 +22,7 @@
       "@/utils/*": ["./utils/*"],
       "@/styles/*": ["./styles/*"],
       "@/libs/*": ["./libs/*"],
-      "@/data/*": ["./libs/data*"],
+      
       "@/widgets/*": ["./widgets/*"],
       
     }
