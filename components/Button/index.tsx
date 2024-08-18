@@ -1,8 +1,7 @@
 import style from "@/styles/button.module.scss";
 import { cn } from "@/utils/cn";
-import Link from "next/link";
 
-function ButtonLink({
+function Button({
   text = "Button",
   className,
   icon,
@@ -10,8 +9,8 @@ function ButtonLink({
   href = "/",
   target = "_self",
   variant = "primary",
-  bg = "base",
-  activeBg = undefined
+  fn = undefined,
+  active = false
 }: {
   text: string;
   className?: string;
@@ -21,7 +20,8 @@ function ButtonLink({
   target?: string;
   variant?: string;
   bg?: string;
-  activeBg?: string;
+  active?: boolean;
+  fn?: () => void;
 }) {
   const attrs = {
     href: href,
@@ -30,11 +30,14 @@ function ButtonLink({
       style.item,
       className && className,
       variant && style[variant],
-      bg && style[bg],
-      activeBg && style[activeBg]
+      active && style[`active`]
     )
   };
-  return <Link {...attrs}>{text}</Link>;
+  return (
+    <button {...attrs} onClick={fn}>
+      {text}
+    </button>
+  );
 }
 
-export default ButtonLink;
+export default Button;

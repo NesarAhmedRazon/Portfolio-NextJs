@@ -18,6 +18,7 @@ const config: Config = {
       aspectRatio: {
         'sd': '4/3',
         'hd': '16/9',
+        '5rp': '5/7',
         
 
       },

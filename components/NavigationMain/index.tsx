@@ -11,7 +11,7 @@ function NavigationMain({
   return (
     <nav className={`${style.container}${className ? " " + className : ""}`}>
       <Link
-        href="/about"
+        href="#about"
         className={`${style.item}${itemClass ? " " + itemClass : ""}`}
       >
         About

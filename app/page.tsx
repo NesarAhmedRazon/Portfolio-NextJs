@@ -1,4 +1,4 @@
-import { PortfolioItems } from "@/utils/PortfolioItems";
+import About from "@/widgets/About";
 import Portfolio from "@/widgets/Portfolio";
 import Section from "@/widgets/Section";
 import Image from "next/image";
@@ -32,6 +32,7 @@ export default function HomePage() {
         </div>
       </Section>
       <Portfolio items={5} />
+      {process.env.NODE_ENV === "development" && <About />}
     </>
   );
 }
