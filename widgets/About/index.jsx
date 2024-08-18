@@ -19,7 +19,7 @@ export default function About() {
         />
       </div>
 
-      {process.env.NODE_ENV === "development" && <Tabs />}
+      <Tabs />
     </Section>
   );
 }
