@@ -7,7 +7,7 @@
           "featuredImage": {
             "node": {
               "altText": "",
-              "sourceUrl": "https://smdpicker.com/wp-content/uploads/2024/06/nesarahmed.dev_.portfolio.smdpicker.com_featu-1.jpg",
+              "sourceUrl": "/images/portfolio/nesarahmed.dev_.portfolio.smdpicker.com_featu-1.jpg",
               "title": null
             }
           },
@@ -46,7 +46,7 @@
           "featuredImage": {
             "node": {
               "altText": "",
-              "sourceUrl": "https://smdpicker.com/wp-content/uploads/2024/06/nesarahmed.dev_.portfolio.nesarahmed.jpg",
+              "sourceUrl": "/images/portfolio/nesarahmed.dev_.portfolio.nesarahmed.jpg",
               "title": null
             }
           },
@@ -79,7 +79,7 @@
           "featuredImage": {
             "node": {
               "altText": "",
-              "sourceUrl": "https://smdpicker.com/wp-content/uploads/2024/06/nesarahmed.dev_.portfolio.tallyfy.com_feature.jpg",
+              "sourceUrl": "/images/portfolio/nesarahmed.dev_.portfolio.tallyfy.com_feature.jpg",
               "title": null
             }
           },
@@ -118,7 +118,7 @@
           "featuredImage": {
             "node": {
               "altText": "",
-              "sourceUrl": "https://smdpicker.com/wp-content/uploads/2024/06/nesarahmed.dev_.portfolio.mesghali.studio_1.jpg",
+              "sourceUrl": "/images/portfolio/nesarahmed.dev_.portfolio.mesghali.studio_1.jpg",
               "title": null
             }
           },
