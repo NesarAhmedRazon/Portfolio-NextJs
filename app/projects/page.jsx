@@ -1,7 +1,6 @@
-import getProjects from "@/libs/queries/getProjects";
 import ItemCard from "@/components/Portfolio/Card"; // import the Card as ItemCard component
-import Section from "@/widgets/Section";
 import getProjectsByCat from "@/libs/queries/getProjectsByCat";
+import Section from "@/widgets/Section";
 
 export default async function Projects() {
   //const projects = await getProjects();

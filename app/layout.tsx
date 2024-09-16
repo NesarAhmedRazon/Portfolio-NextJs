@@ -16,7 +16,9 @@ export default function RootLayout({
     >
       <body className={`min-h-dvh ${poppins.className}`}>
         <Header />
+
         <main>{children}</main>
+
         <GoogleAnalytics id={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS} />
         <Footer />
       </body>

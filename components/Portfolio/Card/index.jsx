@@ -1,7 +1,6 @@
+import Categories from "@/components/Portfolio/Categories";
 import Image from "next/image";
 import Link from "next/link";
-import { ImageUrl } from "@/utils/Sanitizer";
-import Categories from "@/components/Portfolio/Categories";
 
 export default function Card({ data, title }) {
   const url =
@@ -21,7 +20,7 @@ export default function Card({ data, title }) {
       <div className=" relative aspect-sd overflow-hidden ">
         <Image
           alt={data.title}
-          src={ImageUrl(imgSrc)}
+          src={imgSrc}
           fill
           sizes="(min-width: 1024px) 400px, (min-width: 640px) 300px, 200px"
         />

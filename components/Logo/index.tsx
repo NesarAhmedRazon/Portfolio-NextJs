@@ -1,14 +1,12 @@
 "use client";
 
-import { useMediaQuery } from "react-responsive";
-
 export default function Logo({ className }: { className?: string }) {
-  let attr: {
+  const attrs: {
     className?: string;
   } = {};
-  className && (attr.className = className);
+  className && (attrs.className = className);
   // get the current media query state
-  const isMdScreen = useMediaQuery({ maxWidth: 768 });
+  //const isMdScreen = useMediaQuery({ maxWidth: 768 });
 
   return (
     <>
@@ -171,7 +169,7 @@ export default function Logo({ className }: { className?: string }) {
         </g>
       </svg> */}
       <svg
-        {...attr}
+        {...attrs}
         id="logo_horizontal"
         version="1.1"
         viewBox="0 0 655.9 236.7"

@@ -5,16 +5,6 @@ const nextConfig = {
       fullUrl: true
     }
   },
-  rewrites: async () => [
-    {
-      source: "/gql", // Matched parameters can be used in the destination
-      destination: `${process.env.WP_URL}/graphql` // Matched parameters can be used in the destination
-    },
-    {
-      source: "/assets/:path*", // Matched parameters can be used in the destination
-      destination: `${process.env.WP_URL}/wp-content/uploads/:path*` // Matched parameters can be used in the destination
-    }
-  ],
   images: {
     formats: ["image/avif", "image/webp"],
     remotePatterns: [

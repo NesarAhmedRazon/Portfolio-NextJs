@@ -4,8 +4,6 @@ import { cn } from "@/utils/cn";
 function Button({
   text = "Button",
   className,
-  icon,
-  iconAlign,
   href = "/",
   target = "_self",
   variant = "primary",

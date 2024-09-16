@@ -4,6 +4,7 @@
         {
           "slug": "smdpicker-wordpress",
           "title": "SMDPicker.com",
+          "content": null,
           "featuredImage": {
             "node": {
               "altText": "",
@@ -43,6 +44,7 @@
         {
           "slug": "portfolio",
           "title": "My Portfolio",
+          "content": null,
           "featuredImage": {
             "node": {
               "altText": "",
@@ -76,6 +78,7 @@
         {
           "slug": "tallyfy-com",
           "title": "Tallyfy.com",
+          "content": null,
           "featuredImage": {
             "node": {
               "altText": "",
@@ -115,6 +118,7 @@
         {
           "slug": "mesghali-studio",
           "title": "Mesghali Studio",
+          "content": null,
           "featuredImage": {
             "node": {
               "altText": "",

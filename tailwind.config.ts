@@ -3,9 +3,9 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./widgets/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}"
+    "./widgets/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -19,8 +19,6 @@ const config: Config = {
         'sd': '4/3',
         'hd': '16/9',
         '5rp': '5/7',
-        
-
       },
       colors: {
         twitter: "#00acee",
@@ -40,8 +38,8 @@ const config: Config = {
         },
         linkedin: "#0072b1"
       }
-    }
+    },
   },
-  plugins: []
+  plugins: [],
 };
 export default config;
