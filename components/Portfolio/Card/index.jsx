@@ -7,9 +7,8 @@ export default function Card({ data, title }) {
     data?.url ||
     process.env.NEXT_PUBLIC_BASE_URL + "/projects/" + data?.slug ||
     "#";
-  const img =
-    data?.image || data?.featuredImage?.node || "/images/placeholder.png";
-  const imgSrc = img?.sourceUrl || img;
+  const imgSrc =
+    data?.image || data?.thumbnail?.url || "/images/placeholder.png";
 
   return (
     <Link

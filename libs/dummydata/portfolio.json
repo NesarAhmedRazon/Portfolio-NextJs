@@ -4,150 +4,258 @@
         {
           "slug": "smdpicker-wordpress",
           "title": "SMDPicker.com",
+          "excerpt":"This is a WordPress website. consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam",
           "content": null,
-          "featuredImage": {
-            "node": {
-              "altText": "",
-              "sourceUrl": "/images/portfolio/nesarahmed.dev_.portfolio.smdpicker.com_featu-1.jpg",
-              "title": null
-            }
+          "thumbnail": {
+            "altText": "",
+            "url": "/images/portfolio/nesarahmed.dev_.portfolio.smdpicker.com_featu-1.jpg",
+            "title": null
           },
-          "terms": {
-            "nodes": [
+          "featuredImage": {
+              "altText": "",
+              "url": "/images/portfolio/nesarahmed.dev_.portfolio.smdpicker.com_1.jpg",
+              "title": null
+            
+          },
+          "terms":  [
               {
                 "name": "Done",
+                "details": "This project is completed.",
                 "id": "dGVybTo2OTI=",
                 "slug": "done",
-                "databaseId": 692
-              },
-              {
-                "name": "e-Commerce",
-                "id": "dGVybTo2OTQ=",
-                "slug": "e-commerce",
-                "databaseId": 694
-              },
-              {
-                "name": "Web Development",
-                "id": "dGVybTo2OTM=",
-                "slug": "web-development",
-                "databaseId": 693
+                "databaseId": 692,
+                "icon":"WordPress"
               },
               {
                 "name": "WordPress",
+                "details": "WordPress CMS is used for this website.",
                 "id": "dGVybTo2OTA=",
                 "slug": "wordpress",
-                "databaseId": 690
+                "databaseId": 690,
+                "icon":"WordPress"
+              },
+              {
+                "name": "E-Commerce",
+                "details": "Full E-Commerce functionality is implemented.",
+                "id": "dGVybTo2OTQ=",
+                "slug": "e-commerce",
+                "databaseId": 694,
+                "icon":"WooCommerce"
+              },
+              {
+                "name": "Elementor",
+                "details": "The site is designed with Elementor basic.",
+                "id": "dGVybTo2OTA=",
+                "slug": "wordpress",
+                "databaseId": 690,
+                "icon":"Elementor"
+              },{
+                "name": "Scss",
+                "details": "This project is completed.",
+                "id": "dGVybTo2OTA=",
+                "slug": "scss",
+                "databaseId": 690,
+                "icon":"Scss"
+              },
+              {
+                "name": "Custom Plugin",
+                "details": "I've created a custom Courier Plugin for this website.",
+                "id": "dGVybTo2OTM=",
+                "slug": "web-development",
+                "databaseId": 693,
+                "icon":"WpPlugins"
               }
+              
             ]
-          }
+          
         },
         {
           "slug": "portfolio",
           "title": "My Portfolio",
+          "excerpt":"This one is my portfolio website. Built with NextJs.",
           "content": null,
-          "featuredImage": {
-            "node": {
-              "altText": "",
-              "sourceUrl": "/images/portfolio/nesarahmed.dev_.portfolio.nesarahmed.jpg",
-              "title": null
-            }
+          "thumbnail": {
+            "altText": "",
+            "url": "/images/portfolio/nesarahmed.dev_.portfolio.nesarahmed.jpg",
+            "title": null
           },
-          "terms": {
-            "nodes": [
+          "featuredImage": {
+              "altText": "",
+              "url": "/images/portfolio/nesarahmed.dev_.portfolio.nesarahmed.jpg",
+              "title": null
+            
+          },
+          "terms": [
               {
                 "name": "In Progress",
+                "details": "This project is completed.",
                 "id": "dGVybTo2OTE=",
                 "slug": "in-progress",
-                "databaseId": 691
+                "databaseId": 691,
+                "icon":"WordPress"
               },
               {
-                "name": "Next Js",
+                "name": "NextJs",
+                "details": "Using NextJs 14",
                 "id": "dGVybTo2ODk=",
                 "slug": "next-js",
-                "databaseId": 689
+                "databaseId": 689,
+                "icon":"NextJs"
               },
               {
-                "name": "Web Development",
-                "id": "dGVybTo2OTM=",
-                "slug": "web-development",
-                "databaseId": 693
+                "name": "TailwindCss",
+                "details": "Using TailwindCss 3.4.11",
+                "id": "dGVybTo2ODk=",
+                "slug": "tailwindcss",
+                "databaseId": 689,
+                "icon":"TailwindCss"
+              },
+              {
+                "name": "Scss",
+                "details": "This project is completed.",
+                "id": "dGVybTo2OTA=",
+                "slug": "scss",
+                "databaseId": 690,
+                "icon":"Scss"
               }
             ]
-          }
+          
         },
         {
           "slug": "tallyfy-com",
           "title": "Tallyfy.com",
+          "excerpt":"This is a NextJs Headless Website. ",
           "content": null,
-          "featuredImage": {
-            "node": {
-              "altText": "",
-              "sourceUrl": "/images/portfolio/nesarahmed.dev_.portfolio.tallyfy.com_feature.jpg",
-              "title": null
-            }
+          "thumbnail": {
+            "altText": "",
+            "url": "/images/portfolio/nesarahmed.dev_.portfolio.tallyfy.com_feature.jpg",
+            "title": null
           },
-          "terms": {
-            "nodes": [
+          "featuredImage": {
+              "altText": "",
+              "url": "/images/portfolio/nesarahmed.dev_.portfolio.tallyfy.com_feature.jpg",
+              "title": null
+            
+          },
+          "terms":  [
               {
                 "name": "Done",
+                "details": "This project is completed.",
                 "id": "dGVybTo2OTI=",
                 "slug": "done",
-                "databaseId": 692
-              },
-              {
-                "name": "Next Js",
-                "id": "dGVybTo2ODk=",
-                "slug": "next-js",
-                "databaseId": 689
-              },
-              {
-                "name": "Web Development",
-                "id": "dGVybTo2OTM=",
-                "slug": "web-development",
-                "databaseId": 693
+                "databaseId": 692,
+                "icon":"WordPress"
               },
               {
                 "name": "WordPress",
+                "details": "This project is completed.",
+                "id": "dGVybTo2OTM=",
+                "slug": "web-development",
+                "databaseId": 693,
+                "icon":"WordPress"
+              },
+              {
+                "name": "NextJs",
+                "details": "This project is completed.",
+                "id": "dGVybTo2ODk=",
+                "slug": "next-js",
+                "databaseId": 689,
+                "icon":"NextJs"
+              },
+              {
+                "name": "TailwindCss",
+                "details": "Using TailwindCss 3.4.11",
+                "id": "dGVybTo2ODk=",
+                "slug": "tailwindcss",
+                "databaseId": 689,
+                "icon":"TailwindCss"
+              },
+              {
+                "name": "Apollo Graphql",
+                "details": "This project is completed.",
                 "id": "dGVybTo2OTA=",
-                "slug": "wordpress",
-                "databaseId": 690
+                "slug": "apollo-graphql",
+                "databaseId": 690,
+                "icon":"ApolloGraphql"
+              },
+              {
+                "name": "WpGraphql",
+                "details": "This project is completed.",
+                "id": "dGVybTo2OTA=",
+                "slug": "wpgraphql",
+                "databaseId": 690,
+                "icon":"WpGraphql"
+              },
+              {
+                "name": "Scss",
+                "details": "This project is completed.",
+                "id": "dGVybTo2OTA=",
+                "slug": "scss",
+                "databaseId": 690,
+                "icon":"Scss"
+              },
+              {
+                "name": "Cloudflare Pages",
+                "details": "This project is completed.",
+                "id": "dGVybTo2OTA=",
+                "slug": "cloudflarepages",
+                "databaseId": 690,
+                "icon":"CloudflarePages"
+              },
+              {
+                "name": "Custom Plugin",
+                "details": "I've created a custom Courier Plugin for this website.",
+                "id": "dGVybTo2OTM=",
+                "slug": "web-development",
+                "databaseId": 693,
+                "icon":"WpPlugins"
               }
             ]
-          }
+          
         },
         {
           "slug": "mesghali-studio",
           "title": "Mesghali Studio",
+          "excerpt":"WordPress Website, designed using AVADA Theme.",
           "content": null,
-          "featuredImage": {
-            "node": {
-              "altText": "",
-              "sourceUrl": "/images/portfolio/nesarahmed.dev_.portfolio.mesghali.studio_1.jpg",
-              "title": null
-            }
+          "thumbnail": {
+            "altText": "",
+            "url": "/images/portfolio/nesarahmed.dev_.portfolio.mesghali.studio_1.jpg",
+            "title": null
           },
-          "terms": {
-            "nodes": [
+          "featuredImage": {
+              "altText": "",
+              "url": "/images/portfolio/nesarahmed.dev_.portfolio.mesghali.studio_1.jpg",
+              "title": null
+            
+          },
+          "terms":  [
               {
                 "name": "Done",
+                "details": "This project is completed.",
                 "id": "dGVybTo2OTI=",
                 "slug": "done",
-                "databaseId": 692
+                "databaseId": 692,
+                "icon":"WordPress"
               },
               {
                 "name": "Web Development",
+                "details": "This project is completed.",
                 "id": "dGVybTo2OTM=",
                 "slug": "web-development",
-                "databaseId": 693
+                "databaseId": 693,
+                "icon":"WordPress"
               },
               {
-                "name": "WordPress",
+                "name": "Avada",
+                "details": "Avada Theme is used for this website.",
                 "id": "dGVybTo2OTA=",
-                "slug": "wordpress",
-                "databaseId": 690
+                "slug": "avada-theme",
+                "databaseId": 690,
+                "icon":"Avada"
               }
             ]
-          }
+          
         }
       ]
     }

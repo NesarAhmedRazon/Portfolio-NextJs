@@ -32,6 +32,7 @@ export default function HomePage() {
         </div>
       </Section>
       <Portfolio items={5} />
+
       {process.env.NODE_ENV === "development" && <About />}
     </>
   );

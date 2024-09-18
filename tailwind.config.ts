@@ -19,6 +19,7 @@ const config: Config = {
         'sd': '4/3',
         'hd': '16/9',
         '5rp': '5/7',
+        '4rp': '4/6',
       },
       colors: {
         twitter: "#00acee",

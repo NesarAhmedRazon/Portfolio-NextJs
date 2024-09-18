@@ -1,6 +1,7 @@
 import ButtonLink from "@/components/ButtonLink";
 import Card from "@/components/Portfolio/Card";
 import getProjects from "@/libs/queries/getProjects";
+import PortfolioItem from "@/widgets/PortfolioItem";
 import Section from "@/widgets/Section";
 
 export default async function Portfolio({ items }) {
@@ -32,6 +33,11 @@ export default async function Portfolio({ items }) {
           </div>
         </Section>
       )}
+      <Section className="md:py-10 md:gap-8 items-center grid">
+        {projects.map((item, i) => (
+          <PortfolioItem key={i} data={item} />
+        ))}
+      </Section>
     </>
   );
 }
