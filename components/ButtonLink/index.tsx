@@ -5,8 +5,6 @@ import Link from "next/link";
 function ButtonLink({
   text = "Button",
   className,
-  icon,
-  iconAlign,
   href = "/",
   target = "_self",
   variant = "primary",

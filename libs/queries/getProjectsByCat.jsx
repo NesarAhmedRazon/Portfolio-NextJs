@@ -1,54 +1,10 @@
-import { getClient } from "@/libs/apollo/client";
-import { gql } from "graphql-tag";
+import dummyData from "@/libs/dummydata/portfolio.json";
 
 export default async function getProjectsByCat(count = 10, page = 1, cat = "") {
-  const revTime = process.env.NODE_ENV === "development" ? 180 : 180;
-  const { data } = await getClient().query({
-    query: query, // add your query here
-    variables: {
-      id: cat,
-      first: count,
-      offset: (page - 1) * count
-    },
-
-    errorPolicy: "all",
-    context: {
-      fetchOptions: {
-        next: { revalidate: revTime }
-      }
-    }
-  });
-
-  return data?.webProjectCat?.webProjects?.nodes || [];
+  // return only the data for the category having the cat value
+  return (
+    dummyData?.data?.webProjects?.nodes.filter(
+      (item) => item?.terms?.[0].slug === cat
+    ) || []
+  );
 }
-
-const query = gql`
-  query Projects($first: Int = 10, $after: String = "", $id: ID = "done") {
-    webProjectCat(id: $id, idType: SLUG) {
-      webProjects(first: $first, after: $after) {
-        nodes {
-          slug
-          title(format: RENDERED)
-          featuredImage {
-            node {
-              altText
-              sourceUrl(size: LARGE)
-              title(format: RAW)
-            }
-          }
-          terms {
-            nodes {
-              name
-              ... on WebProjectCat {
-                id
-                name
-                slug
-                databaseId
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-`;

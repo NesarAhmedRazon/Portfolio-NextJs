@@ -1,6 +1,5 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import { ApolloWrapper } from "@/libs/apollo/apollo-provider";
 import "@/styles/globals.scss";
 import { poppins, tiro } from "@/utils/GlobalFonts";
 import GoogleAnalytics from "@/utils/GoogleAnalytics";
@@ -17,9 +16,9 @@ export default function RootLayout({
     >
       <body className={`min-h-dvh ${poppins.className}`}>
         <Header />
-        <ApolloWrapper>
-          <main>{children}</main>
-        </ApolloWrapper>
+
+        <main>{children}</main>
+
         <GoogleAnalytics id={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS} />
         <Footer />
       </body>
