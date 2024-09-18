@@ -1,6 +1,8 @@
 "use client";
 
-export default function Logo({ className }: { className?: string }) {
+import { IconComponentProps } from "@types";
+
+export default function Logo({ className }: IconComponentProps) {
   const attrs: {
     className?: string;
   } = {};

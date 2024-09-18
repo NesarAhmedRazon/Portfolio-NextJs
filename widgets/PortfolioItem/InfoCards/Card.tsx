@@ -1,10 +1,15 @@
 import dynamic from "next/dynamic";
+import { IconComponentProps } from "../../../types";
 
 export default function Card({ data = {} }: { data?: any }) {
-  const IconComponent = dynamic(
-    () => import(`@/components/Icons/${data.icon}`).catch(() => null), // Handle if icon is not found
+  const IconComponent = dynamic<IconComponentProps>(
+    () =>
+      import(`@/components/Icons/${data.icon}`)
+        .then((mod) => mod.default)
+        .catch(() => null), // Handle if icon is not found
     { ssr: true }
   );
+
   return (
     <div className="info_card">
       <div

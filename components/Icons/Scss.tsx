@@ -1,9 +1,6 @@
-export default function Scss({
-  className
-}: {
-  size?: number;
-  className?: string;
-}) {
+import { IconComponentProps } from "@types";
+
+export default function Scss({ className }: IconComponentProps) {
   const attrs = {
     x: "0px",
     y: "0px",

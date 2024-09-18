@@ -1,9 +1,6 @@
-export default function WordPress({
-  className
-}: {
-  size?: number;
-  className?: string;
-}) {
+import { IconComponentProps } from "@types";
+
+export default function WordPress({ className }: IconComponentProps) {
   const attrs = {
     x: "0px",
     y: "0px",

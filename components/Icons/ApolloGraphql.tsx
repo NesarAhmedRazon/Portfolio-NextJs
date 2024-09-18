@@ -1,9 +1,6 @@
-export default function ApolloGraphql({
-  className
-}: {
-  size?: number;
-  className?: string;
-}) {
+import { IconComponentProps } from "@types";
+
+export default function ApolloGraphql({ className }: IconComponentProps) {
   const attrs = {
     x: "0px",
     y: "0px",

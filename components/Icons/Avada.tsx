@@ -1,9 +1,6 @@
-export default function Avada({
-  className
-}: {
-  size?: number;
-  className?: string;
-}) {
+import { IconComponentProps } from "@types";
+
+export default function Avada({ className }: IconComponentProps) {
   const attrs = {
     x: "0px",
     y: "0px",
