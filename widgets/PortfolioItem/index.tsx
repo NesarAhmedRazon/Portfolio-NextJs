@@ -6,13 +6,14 @@ export default function PortfolioItem({ data = [] }: { data: any }) {
     data?.image || data?.featuredImage?.url || "/images/placeholder.png";
 
   return (
-    <div className="bg-white grid grid-cols-3 justify-start items-center shadow">
-      <div className="w-full text-center md:text-left relative pb-5/7 aspect-4rp overflow-hidden bg-white">
+    <div className="bg-white grid grid-cols-3 justify-start items-center shadow relative">
+      <div className="lg:w-auto lg:h-full text-center md:text-left pb-5/7 aspect-4rp overflow-hidden bg-white pb-1/1">
         <Image
           src={imgSrc}
           alt="Nesar Ahmed"
-          fill
-          className=""
+          objectFit="contain"
+          width={1000}
+          height={833}
           sizes="(min-width: 1024px) 400px, (min-width: 640px) 300px, 200px"
           unoptimized
         />
