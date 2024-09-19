@@ -6,7 +6,7 @@
     @apply md:w-auto md:h-full text-center md:text-left aspect-sd md:aspect-4rp overflow-hidden bg-white place-self-stretch;
 
     &_file {
-        @apply object-cover h-auto w-auto md:h-full md:w-auto;
+        @apply object-cover h-auto w-full md:h-full md:w-auto;
     }
 }
 
