@@ -4,7 +4,7 @@
         {
           "slug": "smdpicker-wordpress",
           "title": "SMDPicker.com",
-          "excerpt":"This is a WordPress website. consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam",
+          "excerpt":"I designed and developed SMDPicker.com, an online shop specializing in SMD and IoT components. The website is fully customized to enhance user experience, streamline product navigation, and ensure efficient transactions. I also developed a custom WordPress plugin for the site, tailored to improve the functionality of the store and facilitate product management. This project showcases my skills in WordPress development, eCommerce solutions, and custom plugin development, demonstrating my ability to deliver robust and scalable websites.",
           "content": null,
           "thumbnail": {
             "altText": "",
@@ -51,7 +51,7 @@
                 "icon":"Elementor"
               },{
                 "name": "Scss",
-                "details": "This project is completed.",
+                "details": "Custom stylling was done using SCSS to css.",
                 "id": "dGVybTo2OTA=",
                 "slug": "scss",
                 "databaseId": 690,
@@ -59,7 +59,7 @@
               },
               {
                 "name": "Custom Plugin",
-                "details": "I've created a custom Courier Plugin for this website.",
+                "details": "I've created a custom Delivery Plugin for this website.",
                 "id": "dGVybTo2OTM=",
                 "slug": "web-development",
                 "databaseId": 693,
